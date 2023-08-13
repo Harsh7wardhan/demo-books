@@ -1,0 +1,95 @@
+.home-header {
+  padding-left: 85px;
+  padding-top: 20px;
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 54px;
+  /* identical to box height */
+
+  /* Brand/Primary */
+
+  color: #27378c;
+}
+
+.book-thumbnail {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-thumbnail:hover {
+  cursor: pointer;
+}
+
+.book-thumbnail-name {
+  font-family: Satoshi;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.book-thumbnail-author {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* Grey/700-Ash */
+
+  color: #545454;
+}
+
+.col {
+  margin-bottom: 30px;
+}
+
+.add-book-thumbnail {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 4px;
+  gap: 12px;
+
+  width: 180px;
+  height: 250px;
+
+  /* Semantics/White */
+
+  background: #ffffff;
+  /* Blue/700-Bay */
+
+  border: 1px dashed #27378c;
+  border-radius: 8px;
+}
+
+.add-book-thumbnail:hover {
+  cursor: pointer;
+}
+
+.thumbnail_image {
+  width: 180px;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.add-book-thumbnail em {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #27378c;
+  font-style: normal;
+}

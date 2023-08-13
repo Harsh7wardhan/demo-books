@@ -1,0 +1,26 @@
+.my-navbar {
+    background-color: white;
+    border-bottom: 5px solid #FAFAFA;
+}
+
+.navbar-collapse {
+    margin-left: 350px;
+}
+
+.nav-link {
+    font-weight: 700;
+    font-size: 16px;
+    color: #27378C;
+}
+
+.avatar {
+    background-color: red;
+    color : white;
+    font-weight: 600;
+    font-size: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-top: 8px;
+    padding-left: 15px;
+}

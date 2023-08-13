@@ -1,0 +1,129 @@
+.form-label {
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+  bottom: -4px;
+}
+
+.add-book-cover {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 4px;
+
+  width: 350px;
+  height: 450px;
+
+  /* Semantics/White */
+
+  background: #ffffff;
+  /* Blue/700-Bay */
+
+  border: 1px dashed #27378c;
+  border-radius: 8px;
+}
+
+.add-book-cover-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-pdf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 4px;
+  gap: 12px;
+
+  width: 300px;
+  height: 149px;
+
+  /* Semantics/White */
+
+  background: #ffffff;
+  /* Grey/300-CerebralGrey */
+
+  border: 1px dashed #cccccc;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.submit-button {
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 8px 15px;
+  border: none;
+  background: #27378c;
+  color: white;
+}
+
+.important {
+  color: #f64b3c;
+}
+
+.upload-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #27378c;
+}
+
+.upload-title em {
+  font-style: normal;
+  text-decoration-line: underline;
+}
+
+.upload-title em:hover {
+  cursor: pointer;
+}
+
+.upload-about {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #7a7a7a;
+}
+
+.add-book-cover-1 em {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #27378c;
+  font-style: normal;
+}
+
+.fa-cloud-upload {
+  color: #27378c;
+  font-size: 22px;
+}
+
+.fa-info-circle {
+    margin-top: 8px;
+    color: #7A7A7A;
+    font-size: 18px;
+}
+
+.input-title {
+  display: flex;
+  justify-content: space-between;
+}

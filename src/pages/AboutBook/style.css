@@ -1,0 +1,143 @@
+.book-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #27378c;
+}
+
+.book-detail-thumbnail {
+  width: 100%;
+  height : 425px;
+  border-radius: 10px;
+}
+.author {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #545454;
+  margin-bottom: 10px;
+}
+.read-time {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #545454;
+  margin-bottom: 10px;
+}
+.about-book {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.book-detail {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.rate {
+  display: flex;
+}
+
+.rate-left {
+  display: flex;
+  padding-right: 70px;
+  border-right: 1px solid rgb(210, 207, 207);
+}
+
+.rate-right {
+  padding-left: 20px;
+}
+
+.rate-right {
+  font-size: 16px;
+  color: #545454;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.summary {
+  margin-bottom: 10px;
+}
+
+.rate-bar {
+  display: flex;
+}
+
+.rating-bar {
+  margin-right: 20px;
+}
+
+.rate-val {
+  margin-bottom: -2px;
+}
+
+.rate-area {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+.rate-button {
+  color: #27378c;
+  padding: 8px 15px;
+  border: 2px solid #27378c;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.bar {
+  background: #ffb400;
+  border-radius: 2px;
+  width: 180px;
+  height: 15px;
+  margin-top: 8px;
+}
+
+.abt {
+  display: flex;
+  flex-direction: column;
+}
+
+.read-button {
+  width: 120px;
+  height: 44px;
+  left: 538px;
+  top: 698px;
+
+  /* Blue/700-Bay */
+
+  background: #27378c;
+  border-radius: 8px;
+  color : white;
+  border : none;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+.fa-star {
+  color:  #FFB400;;
+  font-size: 25px;
+}
+
+.star-rating {
+  display: flex;
+  justify-content: space-between;
+}
+
+.star {
+  margin-right : 10px;
+}
+
+.fa-star-null {
+  color: grey;
+}
+
+.rate-button:hover {
+  cursor: pointer;
+}
